@@ -1,0 +1,96 @@
+body{
+    font-size: 14px;
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+*,
+:*before,
+:*after{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 95%;
+    height: 100%;
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+
+.header{
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px  solid white;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.nav{
+    display:flex ;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.nav__link{
+    margin-left:50px ;
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+    
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+.nav__link:hover{
+    opacity: 1;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+
+    background: url('../img/intro6.jpg') center no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    
+    margin: 0 auto;
+}
+
+.intro__title{
+    
+    
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+
